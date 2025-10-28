@@ -1,0 +1,132 @@
+import type { Schema } from '@/types/node';
+
+export const civitSchema: Record<string, Schema> = {
+  prompt: {
+    type: 'string',
+    title: 'Prompt',
+    description: 'Prompt for the model',
+    default: 'black bird in the dead of night',
+    order: 0,
+    required: false,
+  },
+  negativePrompt: {
+    type: 'string',
+    title: 'Negative Prompt',
+    description: 'Negative Prompt for the model',
+    default:
+      'deformed iris, deformed pupils, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime, mutated hands and fingers:1.4',
+    order: 1,
+    required: false,
+  },
+  scheduler: {
+    type: 'enum',
+    title: 'Scheduler',
+    description: 'Scheduler for the model',
+    default: 'EulerA',
+    options: [
+      'EulerA',
+      'Euler',
+      'LMS',
+      'Heun',
+      'DPM2',
+      'DPM2A',
+      'DPM2SA',
+      'DPM2M',
+      'DPMSDE',
+      'DPMFast',
+      'DPMAdaptive',
+      'LMSKarras',
+      'DPM2Karras',
+      'DPM2AKarras',
+      'DPM2SAKarras',
+      'DPM2MKarras',
+      'DPMSDEKarras',
+      'DDIM',
+      'PLMS',
+      'UniPC',
+      'Undefined',
+      'LCM',
+      'DDPM',
+      'DEIS',
+    ],
+    order: 6,
+    required: false,
+  },
+  steps: {
+    type: 'integer',
+    title: 'Steps',
+    description: 'The number of steps for the image generation process',
+    default: 20,
+    min: 1,
+    max: 50,
+    order: 5,
+    required: false,
+  },
+  cfgScale: {
+    type: 'integer',
+    title: 'Cfg Scale',
+    description: 'Cfg Scale for the model',
+    default: 7,
+    min: 0,
+    max: 20,
+    order: 4,
+    required: false,
+  },
+  width: {
+    type: 'input',
+    title: 'Width',
+    description: 'Width of the image',
+    default: 512,
+    order: 2,
+    required: false,
+  },
+  height: {
+    type: 'input',
+    title: 'Height',
+    description: 'Height of the image',
+    default: 512,
+    order: 3,
+    required: false,
+  },
+  seed: {
+    type: 'seed',
+    title: 'Seed',
+    description: 'Uncheck to keep the same results',
+    order: 8,
+    default: {
+      isRandom: true,
+      seed: 120384,
+    },
+    required: false,
+  },
+};
+
+export const civitParams = {
+  prompt: '',
+  negativePrompt: 'null',
+  scheduler: 'EulerA',
+  steps: 20,
+  cfgScale: 7,
+  width: 512,
+  height: 512,
+  seed: {
+    isRandom: true,
+    seed: 120384,
+  },
+};
+
+// const input = {
+//     model: "urn:air:sdxl:checkpoint:civitai:133005@471120",
+//     params: {
+//       prompt:
+//         "RAW photo, face portrait photo of 26 y.o woman, wearing black dress, happy face, hard shadows, cinematic shot, dramatic lighting",
+//       negativePrompt:
+//         "(deformed iris, deformed pupils, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime, mutated hands and fingers:1.4), (deformed, distorted, disfigured:1.3)",
+//       scheduler: Scheduler.EulerA,
+//       steps: 20,
+//       cfgScale: 7,
+//       width: 512,
+//       height: 512,
+//       clipSkip: 2,
+//     },
+//   };

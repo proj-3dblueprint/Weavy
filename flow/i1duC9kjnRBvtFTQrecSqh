@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Weavy - Pro-grade design workflows, Powered by any AI model" />
+    <link rel="apple-touch-icon" href="/android-chrome-192x192.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <script src="https://kit.fontawesome.com/682403751a.js" crossorigin="anonymous"></script>
+    <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+
+    <!-- Google Tag Manager -->
+    <script>
+      (function(w,d,s,l,i){
+        w[l]=w[l]||[];
+        w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+
+        if (f && f.parentNode) {
+          f.parentNode.insertBefore(j, f);
+        }
+      })(window,document,'script','dataLayer','GTM-PW3B9LZJ');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <!-- firstpromoter -->
+    <script>(function(w){w.fpr=w.fpr||function(){w.fpr.q = w.fpr.q||[];w.fpr.q[arguments[0]=='set'?'unshift':'push'](arguments);};})(window);
+    fpr("init", {cid:"vzajpas8"});
+    fpr("click");
+    </script>
+    <script src="https://cdn.firstpromoter.com/fpr.js" async></script>
+    <!-- firstpromoter -->
+
+
+    <title>Weavy</title>
+    <script type="module" crossorigin src="/assets/index-DnvAWuNV.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/react-vendor-C6Ba5J37.js">
+    <link rel="modulepreload" crossorigin href="/assets/three-CCuf2VqA.js">
+    <link rel="modulepreload" crossorigin href="/assets/three-stdlib-DgqlzYJm.js">
+    <link rel="modulepreload" crossorigin href="/assets/designer-DqJHv1UD.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-D4TW7wuV.css">
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PW3B9LZJ"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+     <script>
+      window.WEAVY_VERSION = "2.0.129";
+      console.log(`
+████████    ████████    ████████
+████████    ████████    ████████
+████████    ████████    ████████
+████████    ████████    ████████
+████████    ████████    ████████
+████████    ████████    ████████
+████████    ████████    ████████
+████████    ████████    ████████
+      ████████    ████████      
+      ████████    ████████      
+      ████████    ████████      
+      ████████    ████████       
+  ${window.WEAVY_VERSION[0] == '{' ? '' : 'Version: ' + window.WEAVY_VERSION}  
+`);
+     </script>
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"40f102da4a4d42919af1cdb983563c0d","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
