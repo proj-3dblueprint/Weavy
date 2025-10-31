@@ -38,3 +38,6 @@ logs/
 # Cache
 .cache/
 .parcel-cache/
+
+# Large assets
+assets/wasm
