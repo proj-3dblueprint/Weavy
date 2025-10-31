@@ -1,0 +1,40 @@
+{
+    "batchId": "a5cf412a-4065-4104-afcc-a575b852c032",
+    "recipeId": "i1duC9kjnRBvtFTQrecSqh",
+    "remainingCredits": 775.0999999999999,
+    "userRemainingCredits": 775.0999999999999,
+    "recipeRuns": [
+        {
+            "id": "dc535540-b9f8-435a-8361-12625b606f77",
+            "startTime": "2025-10-31T00:58:27.515Z",
+            "endTime": null,
+            "status": "RUNNING",
+            "error": null,
+            "nodeRuns": [
+                {
+                    "id": "287322d6-b868-407a-a025-d15a5c5d66f7",
+                    "nodeId": "8ee949d7-d99d-44a4-b067-8827c6230302",
+                    "runId": "dc535540-b9f8-435a-8361-12625b606f77",
+                    "status": "RUNNING",
+                    "startedAt": "2025-10-31T00:58:27.840Z",
+                    "completedAt": null,
+                    "result": null,
+                    "output": null,
+                    "input": {
+                        "seed": 905859,
+                        "style": "General",
+                        "prompt": "A node based editor",
+                        "enhance_prompt": true,
+                        "style_strength": 1,
+                        "width_and_height": "1696x960"
+                    },
+                    "error": null,
+                    "progress": 10
+                }
+            ],
+            "batchId": "a5cf412a-4065-4104-afcc-a575b852c032",
+            "runIndexInBatch": 0,
+            "inputIndex": 0
+        }
+    ]
+}
